@@ -9,6 +9,9 @@
     "email": "reid@reidransom.com",
     "url": "http://reidransom.com/"
   },
+  "contributors": [
+    "Jeff Fairley <jfairley@gmail.com>"
+  ],
   "bugs": {
     "url": "https://github.com/reidransom/timecode.js/issues",
     "email": "reid@reidransom.com"
@@ -19,5 +22,8 @@
   },
   "devDependencies": {
     "nodeunit": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit test"
   }
 }
